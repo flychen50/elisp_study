@@ -28,7 +28,10 @@
 
 ;;; Code:
 (setq objects '(whiskey-bottle bucket frog chain))
+<<<<<<< HEAD
 
+=======
+>>>>>>> cc6509aa758a03a74276bbafed89cc33b4dc0d1c
 (setq map '((living-room (you are in the living room
                               of a wizards house - there is a wizard
                               snoring loudly on the couch -)
@@ -48,6 +51,7 @@
                          (chain garden)
                          (frog garden)))
 
+<<<<<<< HEAD
 (defun describe-path (path)
   `(there is a ,(second path) going ,(first path) from here -))
 
@@ -107,10 +111,7 @@
 (weld 'chain 'bucket)
 
 
-
-
-
- (provide 'elisp_learn)
+(provide 'elisp_learn)
 
 ;; Local Variables:
 ;; coding: utf-8
